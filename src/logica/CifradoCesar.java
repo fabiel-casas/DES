@@ -11,6 +11,12 @@ package logica;
  */
 public interface CifradoCesar {
     
-    public String cifrarPalabra(String palabra);
+    /**
+     *
+     * @param palabra
+     * @param clave
+     * @return
+     */
+    public String cifrarPalabra(String palabra, String clave);
     
 }
